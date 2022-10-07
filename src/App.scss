@@ -1,0 +1,59 @@
+* {
+  font-size: 22px;
+
+}
+
+.calc {
+  box-shadow: 0px 0px 100px #06678a;
+  margin: 20px auto;
+  width: 500px;
+
+  .operations {
+    display: flex;
+
+    button {
+      border: 0.5px solid #5f9daf;
+      display: flex;
+
+      justify-content: center;
+      align-items: center;
+      background-color: #5f9daf;
+      width: 20%;
+      height: 70px;
+      transition: all 0.4s ease-in-out;
+      cursor: pointer;
+    }
+  
+  }
+
+  .dig button {
+    flex: 1 1 33.333%;
+
+   min-width: 33.2%;
+
+    background-color: #5eabc0;
+    height: 85px;
+    cursor: pointer;
+    transition: all 0.4s ease-in-out;
+    border: 0.5px solid #b0b0b0;
+  }
+  .dig button:hover {
+    background-color: #c3c3e0;
+  }
+}
+
+.output {
+  height: 130px;
+  box-shadow: inset 0px 0px 20px #d1ffef;
+  text-align: right;
+  font-size: 60px;
+  display: flex;
+  opacity: 46.5%;
+  background-color: #c5c5c5;
+  border: 1px solid black;
+  flex-direction: column;
+  .preRes {
+    opacity: 1;
+    font-size: 40px;
+  }
+}
